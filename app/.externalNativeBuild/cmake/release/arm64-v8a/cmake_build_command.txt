@@ -15,6 +15,7 @@ arguments :
 -DCMAKE_TOOLCHAIN_FILE=/home/manish/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
 -G Ninja
 -DCMAKE_MAKE_PROGRAM=/home/manish/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
--DANDROID_STL=c++_static
+--stl=libc++
+-DANDROID_CPP_FEATURES=rtti exceptions
 jvmArgs : 
 

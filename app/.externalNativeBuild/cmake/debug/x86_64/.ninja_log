@@ -1,10 +1,1 @@
 # ninja log v5
-0	665	1549660667	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	8c583237c0e5ac10
-666	756	1549660667	/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so	9bee0913a7a53405
-0	323	1549660912	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	d8c3d02d51fcc690
-323	354	1549660912	/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so	af44fa9e17ef8e80
-1	527	1549950964	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	d8c3d02d51fcc690
-528	1752	1549950965	/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so	af44fa9e17ef8e80
-1	459	1549953640	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	d8c3d02d51fcc690
-1	246	1549953668	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	d8c3d02d51fcc690
-0	65	1549953816	/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so	af44fa9e17ef8e80
