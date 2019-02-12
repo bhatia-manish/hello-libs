@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/release/x86_64",
+  "command": "/home/manish/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/home/manish/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/manish/Android/Sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -I/home/manish/Downloads/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/home/manish/Downloads/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -I/home/manish/Downloads/hello-libs/app/src/main/cpp/../../../../distribution/libessentia/include -isystem /home/manish/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/manish/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/manish/Android/Sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles/hello-libs.dir/hello-libs.cpp.o -c /home/manish/Downloads/hello-libs/app/src/main/cpp/hello-libs.cpp",
+  "file": "/home/manish/Downloads/hello-libs/app/src/main/cpp/hello-libs.cpp"
+}
+]

@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "/home/manish/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/manish/Downloads/hello-libs/app/src/main/cpp/CMakeLists.txt",
+    "/home/manish/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/manish/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "hello-libs-Debug-x86_64": {
+      "artifactName": "hello-libs",
+      "buildCommand": "/home/manish/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/debug/x86_64 --target hello-libs",
+      "abi": "x86_64",
+      "output": "/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so"
+    }
+  }
+}

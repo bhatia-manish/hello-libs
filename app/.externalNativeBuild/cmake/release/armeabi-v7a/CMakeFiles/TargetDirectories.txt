@@ -1,0 +1,3 @@
+/home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/hello-libs.dir

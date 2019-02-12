@@ -1,0 +1,40 @@
+{
+  "stringTable": {
+    "0": "/home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/manish/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/manish/Android/Sdk/ndk-bundle/sysroot -Dhello_libs_EXPORTS -I/home/manish/Downloads/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/home/manish/Downloads/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -I/home/manish/Downloads/hello-libs/app/src/main/cpp/../../../../distribution/libessentia/include -isystem /home/manish/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/manish/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /home/manish/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/home/manish/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/manish/Downloads/hello-libs/app/src/main/cpp/CMakeLists.txt",
+    "/home/manish/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/manish/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "hello-libs-Release-arm64-v8a": {
+      "buildCommand": "/home/manish/Android/Sdk/cmake/3.10.2.4988404/bin/cmake --build /home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/release/arm64-v8a --target hello-libs",
+      "buildType": "release",
+      "toolchain": "3813541659",
+      "abi": "arm64-v8a",
+      "artifactName": "hello-libs",
+      "files": [
+        {
+          "src": "/home/manish/Downloads/hello-libs/app/src/main/cpp/hello-libs.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/release/obj/arm64-v8a/libhello-libs.so"
+    }
+  },
+  "toolchains": {
+    "3813541659": {
+      "cppCompilerExecutable": "/home/manish/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
