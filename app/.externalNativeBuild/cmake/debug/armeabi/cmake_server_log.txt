@@ -38,18 +38,19 @@ CMAKE SERVER: {
   "cacheArguments": [
     "",
     "-DANDROID_ABI\u003darmeabi",
-    "-DANDROID_PLATFORM\u003dandroid-14",
+    "-DANDROID_PLATFORM\u003dandroid-16",
     "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
     "-DANDROID_NDK\u003d/home/manish/Android/Sdk/ndk-bundle",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi",
-    "-DCMAKE_SYSTEM_VERSION\u003d14",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_ANDROID_NDK\u003d/home/manish/Android/Sdk/ndk-bundle",
-    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi/pre-ndk-r15-wrapper-android.toolchain.cmake",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/manish/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
     "-G Ninja",
-    "-DCMAKE_MAKE_PROGRAM\u003d/home/manish/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/manish/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DANDROID_STL\u003dc++_static"
   ]
 }
 
@@ -59,22 +60,20 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Error at /home/manish/Android/Sdk/cmake/3.10.2.4988404/android.toolchain.cmake:356 (message):\n  Invalid Android NDK revision (should be 12): 10.1.5063045.\nCall Stack (most recent call first):\n  /home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi/pre-ndk-r15-wrapper-android.toolchain.cmake:2 (include)\n  /home/manish/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n","title":"Error","type":"message"}
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Error at /home/manish/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:177 (message):\n  armeabi is no longer supported.  Use armeabi-v7a.\nCall Stack (most recent call first):\n  /home/manish/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)\n  CMakeLists.txt\n\n","title":"Error","type":"message"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 
-CMAKE SERVER: CMake Error at /home/manish/Android/Sdk/cmake/3.10.2.4988404/android.toolchain.cmake:356 (message):
-  Invalid Android NDK revision (should be 12): 10.1.5063045.
+CMAKE SERVER: CMake Error at /home/manish/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:177 (message):
+  armeabi is no longer supported.  Use armeabi-v7a.
 Call Stack (most recent call first):
-  /home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi/pre-ndk-r15-wrapper-android.toolchain.cmake:2 (include)
   /home/manish/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
   CMakeLists.txt
 
 
-CMAKE SERVER: CMake Error at /home/manish/Android/Sdk/cmake/3.10.2.4988404/android.toolchain.cmake:356 (message):
-  Invalid Android NDK revision (should be 12): 10.1.5063045.
+CMAKE SERVER: CMake Error at /home/manish/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake:177 (message):
+  armeabi is no longer supported.  Use armeabi-v7a.
 Call Stack (most recent call first):
-  /home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi/pre-ndk-r15-wrapper-android.toolchain.cmake:2 (include)
   /home/manish/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake:94 (include)
   CMakeLists.txt
 

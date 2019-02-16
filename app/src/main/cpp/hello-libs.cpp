@@ -21,7 +21,9 @@
 #include <gmath.h>
 #include <gperf.h>
 #include <string>
-#include <algorithms/standard/constantq.h>
+#include <essentia/streamutil.h>
+#include <essentia/constantq.h>
+
 
 #define LOGI(...) \
   ((void)__android_log_print(ANDROID_LOG_INFO, "hello-libs::", __VA_ARGS__))
@@ -37,5 +39,6 @@ Java_com_example_hellolibs_MainActivity_stringFromJNI(JNIEnv *env, jobject thiz)
     // Just for simplicity, we do this right away; correct way would do it in
     // another thread...
 ///
+   
     return env->NewStringUTF("Hello from JNI LIBS!");
 }

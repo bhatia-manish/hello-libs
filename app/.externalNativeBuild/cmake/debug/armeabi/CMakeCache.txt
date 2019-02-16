@@ -21,7 +21,10 @@ ANDROID_ABI:UNINITIALIZED=armeabi
 ANDROID_NDK:UNINITIALIZED=/home/manish/Android/Sdk/ndk-bundle
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-14
+ANDROID_PLATFORM:UNINITIALIZED=android-16
+
+//No help, variable specified on the command line.
+ANDROID_STL:UNINITIALIZED=c++_static
 
 //No help, variable specified on the command line.
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=armeabi
@@ -48,10 +51,10 @@ CMAKE_PROJECT_NAME:STATIC=Project
 CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 
 //No help, variable specified on the command line.
-CMAKE_SYSTEM_VERSION:UNINITIALIZED=14
+CMAKE_SYSTEM_VERSION:UNINITIALIZED=16
 
 //No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi/pre-ndk-r15-wrapper-android.toolchain.cmake
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/manish/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=/home/manish/Downloads/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi
