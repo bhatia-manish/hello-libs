@@ -1,0 +1,10 @@
+# ninja log v5
+0	486	1550309750	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	b4902b986b002493
+0	2992	1550333135	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	b4902b986b002493
+0	105	1550333181	/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	1df62e2c507224a0
+1	1168	1550333908	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	b4902b986b002493
+1168	1270	1550333908	/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	1df62e2c507224a0
+5	1225	1550334233	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	b4902b986b002493
+1225	1336	1550334233	/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	1df62e2c507224a0
+0	1200	1550334871	CMakeFiles/hello-libs.dir/hello-libs.cpp.o	b4902b986b002493
+1200	1217	1550334871	/home/manish/Downloads/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so	1df62e2c507224a0
