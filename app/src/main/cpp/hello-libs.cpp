@@ -22,7 +22,13 @@
 #include <gperf.h>
 #include <string>
 #include <essentia/streamutil.h>
-#include <essentia/constantq.h>
+//#include <essentia/constantq.h>
+#include <essentia/algorithmfactory.h>
+#include <essentia/pool.h>
+
+using namespace std;
+using namespace essentia;
+using namespace standard;
 
 
 #define LOGI(...) \
@@ -39,6 +45,37 @@ Java_com_example_hellolibs_MainActivity_stringFromJNI(JNIEnv *env, jobject thiz)
     // Just for simplicity, we do this right away; correct way would do it in
     // another thread...
 ///
-   
+    double _sampleRate=16000;
+    double _minFrequency=27.5;
+    double _maxFrequency = 4186.005;
+    unsigned int _binsPerOctave=36;
+    double _threshold=0.005;
+    essentia::init();
+
+
+    AlgorithmFactory& factory = AlgorithmFactory::instance();
+
+
+
+    Algorithm* _constantq = AlgorithmFactory::create("ConstantQ");
+
+    _constantq->configure("minFrequency", _minFrequency,
+                          "maxFrequency", _maxFrequency,
+                          "binsPerOctave", _binsPerOctave,
+                          "sampleRate", _sampleRate,
+                          "threshold", _threshold);
+
+//
+//    ConstantQ *constantQ = new ConstantQ();
+//
+//
+    _constantq->compute();
+    
+
+
+
+
+
+
     return env->NewStringUTF("Hello from JNI LIBS!");
 }

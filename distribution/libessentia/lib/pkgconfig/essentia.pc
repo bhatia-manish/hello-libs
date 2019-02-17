@@ -1,4 +1,4 @@
-prefix=/home/manish/Desktop/essentia_build
+prefix=/home/manish/new_build
 libdir=${prefix}/lib
 includedir=${prefix}/include
 
