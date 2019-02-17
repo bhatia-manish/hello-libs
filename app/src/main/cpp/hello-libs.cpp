@@ -26,6 +26,7 @@
 #include <essentia/algorithmfactory.h>
 #include <essentia/pool.h>
 
+
 using namespace std;
 using namespace essentia;
 using namespace standard;
@@ -45,6 +46,8 @@ Java_com_example_hellolibs_MainActivity_stringFromJNI(JNIEnv *env, jobject thiz)
     // Just for simplicity, we do this right away; correct way would do it in
     // another thread...
 ///
+
+    __android_log_print(ANDROID_LOG_ERROR, "TRACKERS", "%s", "Log");
     double _sampleRate=16000;
     double _minFrequency=27.5;
     double _maxFrequency = 4186.005;
@@ -70,7 +73,7 @@ Java_com_example_hellolibs_MainActivity_stringFromJNI(JNIEnv *env, jobject thiz)
 //
 //
     _constantq->compute();
-    
+
 
 
 

@@ -34,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
     public native String  stringFromJNI();
     static {
         System.loadLibrary("hello-libs");
-       // System.loadLibrary("libessentia");
+        System.loadLibrary("essentia");
+
+
+        System.out.println("Library loaded");
 
 
     }
